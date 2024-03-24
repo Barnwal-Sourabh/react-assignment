@@ -1,0 +1,23 @@
+.Body{
+    display: grid;
+    height: calc(100vh - 10vh);
+    font-weight: 700;
+    h1{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: center;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        font-size: 3rem;
+    }
+    p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        font-size: 1rem;
+    }
+}

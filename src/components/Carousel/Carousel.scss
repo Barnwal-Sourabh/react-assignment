@@ -1,0 +1,37 @@
+.Carousel {
+    display: grid;
+    grid-row-start: 4;
+    grid-row-end: 16;
+    .gallery-wraper {
+        grid-row-start: 1;
+        grid-row-end: 5;
+        .gallery-container {
+            display: flex;
+            align-items: cetner;
+            height: 100%;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+    }
+    .gallery-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        .gallery-controls-box {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            img {
+                cursor: pointer;
+            }
+            .dot-box {
+                display: flex;
+                gap: 0.75rem;
+            }
+        }
+    }
+}
